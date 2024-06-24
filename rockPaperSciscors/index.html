@@ -5,8 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RockPaperSciscors</title>
+    <link rel="stylesheet" href="scss.css">
 </head>
 <body>
-    
+    <main>
+        <div class="humanChoice">
+            <button  onclick="answerRock()" class="button1">Rock</button>
+            <button  onclick="answerPaper()" class="button2">Paper</button>
+            <button  onclick="answerScissors()" class="button3">Scissors</button>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <button onclick="getHumanChoice" class="resultButton">Result</button>
+        </div>
+    </main>
 </body>
 </html>
